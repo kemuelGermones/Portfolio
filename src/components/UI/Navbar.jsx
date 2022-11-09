@@ -15,19 +15,19 @@ const classListNav = {
 
 const menu = [
   {
-    link: "#",
+    link: "#about",
     name: "About",
   },
   {
-    link: "#",
+    link: "#projects",
     name: "Projects",
   },
   {
-    link: "#",
+    link: "#contact",
     name: "Contact",
   },
   {
-    link: "#",
+    link: "#resume",
     name: "Resume",
   },
 ];
@@ -41,6 +41,7 @@ function NavBar() {
     if (typeof window !== "undefined") {
       if (window.scrollY > lastScrollY) {
         setShowNavbar(false);
+        setSidebar(false);
       } else {
         setShowNavbar(true);
       }
@@ -86,7 +87,12 @@ function NavBar() {
               }
               return (
                 <li key={index}>
-                  <a href={item.link}>{item.name}</a>
+                  <a 
+                    href={item.link}
+                    onClick={sidebarHandler}
+                  >
+                    {item.name}
+                  </a>
                 </li>
               );
             })}

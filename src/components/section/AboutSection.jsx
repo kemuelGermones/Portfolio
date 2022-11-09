@@ -3,7 +3,7 @@ import AboutCard from '../UI/AboutCard';
 
 function AboutSection() {
     return (
-        <section className={classes.about}>
+        <section className={classes.about} id='about'>
             <div className={classes.img}>
                 <AboutCard />
             </div>

@@ -2,7 +2,7 @@ import classes from './HeroSection.module.css';
 
 function HeroSection() {
     return (
-        <section className={ classes.hero }>
+        <section className={ classes.hero } id='home'>
             <h1>
                 I’m Kemuel,
                 <br /> 

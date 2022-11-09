@@ -30,7 +30,7 @@ const projectsData = [
 
 function ProjectsSection() {
     return (
-        <section className={classes.projects}>
+        <section className={classes.projects} id='projects'>
             <h1 className={classes.title}><span>Featured</span> projects</h1>
             <ul>    
                 { projectsData.map((project, index) => 
