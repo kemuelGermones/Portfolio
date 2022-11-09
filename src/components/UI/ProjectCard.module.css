@@ -1,0 +1,73 @@
+.card {
+    width: 40rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    position: relative;
+    box-shadow: 10px 10px 0 -2.5px #A8BFAA, 10px 10px 0 0 #798C7A;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-body { 
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: rgba(121, 140, 122, 0.75);
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.card-body a {
+    color: white
+}
+
+.card-title {
+    font-family: 'Bodini';
+    font-size: 3rem;
+}
+
+.card-icons {
+    width: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.card-body:hover {
+    opacity: 1;
+}
+
+.card-body a:hover {
+    color: #A8BFAA;
+}
+
+@media screen and (max-width: 700px) {
+    .card-body {
+        opacity: 1;
+    }
+
+    .card-title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+       width: 90%;
+       height: 25rem;
+    }
+}

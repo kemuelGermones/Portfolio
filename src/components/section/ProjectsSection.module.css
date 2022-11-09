@@ -1,0 +1,39 @@
+.projects {
+    padding: 5rem 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #798C7A;
+}
+
+.title {
+    font-family: 'Bodoni';
+    font-size: 6rem;
+    text-align: center;
+}
+
+.title span {
+    color: #798C7A;
+}
+
+.projects ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.projects li {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .title {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .title {
+        font-size: 2.5rem;
+    }
+}
