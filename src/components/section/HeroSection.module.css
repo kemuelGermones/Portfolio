@@ -21,7 +21,6 @@
 .hero p {
   width: 25rem;
   align-self: flex-end;
-  line-height: 1.5rem;
 }
 
 @media screen and (max-width: 1300px) {

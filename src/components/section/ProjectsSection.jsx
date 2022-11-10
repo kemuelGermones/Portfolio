@@ -7,7 +7,7 @@ import ProjectCard from "../UI/ProjectCard";
 
 const projectsData = [
   {
-    imageSrc: "/unexplained.jpg",
+    imageSrc: "/unexplained.webp",
     title: "Unexplained",
     description:
       "Unexplained is an online forum dedicated to the discussion of sightings of paranormal entities, UFOs, the possibility of extraterrestrial life and other strange events that cannot be explain.",
@@ -16,7 +16,7 @@ const projectsData = [
     liveLink: "https://unexplained.onrender.com/",
   },
   {
-    imageSrc: "/appblast.jpg",
+    imageSrc: "/appblast.webp",
     title: "AppBlast",
     description:
       "AppBlast is a self-promotion website where web designers and developers can showcase their work in which other users can also review.",
@@ -25,7 +25,7 @@ const projectsData = [
     liveLink: "https://appblast-260d3.web.app/projects",
   },
   {
-    imageSrc: "/playmath.jpg",
+    imageSrc: "/playmath.webp",
     title: "PlayMath",
     description:
       "PlayMath is a math game that tests your mathematical skills in addition, subtraction, multiplication and division.",
