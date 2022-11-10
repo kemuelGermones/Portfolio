@@ -76,27 +76,24 @@ function NavBar() {
         <div className={classes.mobileicon} onClick={sidebarHandler}>
           {!showSidebar ? <BiMenu size="2em" /> : <MdClose size="2em" />}
         </div>
-        <ul style={{right: !showSidebar ? null : 0}}>
-            {menu.map((item, index) => {
-              if (menu.length - 1 === index) {
-                return (
-                  <li key={index}>
-                    <Button>{item.name}</Button>
-                  </li>
-                );
-              }
+        <ul style={{ right: !showSidebar ? null : 0 }}>
+          {menu.map((item, index) => {
+            if (menu.length - 1 === index) {
               return (
                 <li key={index}>
-                  <a 
-                    href={item.link}
-                    onClick={sidebarHandler}
-                  >
-                    {item.name}
-                  </a>
+                  <Button>{item.name}</Button>
                 </li>
               );
-            })}
-          </ul>
+            }
+            return (
+              <li key={index}>
+                <a href={item.link} onClick={sidebarHandler}>
+                  {item.name}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
       </nav>
     </CSSTransition>
   );

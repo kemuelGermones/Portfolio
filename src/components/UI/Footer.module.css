@@ -1,20 +1,20 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
-    height: 15vh;
-    box-sizing: border-box;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  height: 15vh;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .iconscontainer {
-    display: flex;
-    justify-content: space-between;
-    width: 5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 5rem;
 }
 
 .iconscontainer a:hover {
-    color: #798C7A;
+  color: #798c7a;
 }

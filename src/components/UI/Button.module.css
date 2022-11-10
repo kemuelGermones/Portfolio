@@ -1,40 +1,40 @@
 .button {
-    --color: #0d0d0d;
-    display: inline-block;
-    background-color: transparent;
-    width: 6em;
-    height: 2.6em;
-    line-height: 2.5em;
-    overflow: hidden;
-    font-size: 17px;
-    z-index: 1;
-    color: var(--color);
-    border: 2px solid var(--color);
-    border-radius: 6px;
-    position: relative;
+  --color: #0d0d0d;
+  display: inline-block;
+  background-color: transparent;
+  width: 6em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
 }
 
 .button::before {
-    position: absolute;
-    content: "";
-    background: var(--color);
-    width: 150px;
-    height: 200px;
-    z-index: -1;
-    border-radius: 50%;
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
 }
 
 .button:hover {
-    color: #A8BFAA;
+  color: #a8bfaa;
 }
 
 .button:before {
-    top: 100%;
-    left: 100%;
-    transition: .3s all;
+  top: 100%;
+  left: 100%;
+  transition: 0.3s all;
 }
 
 .button:hover::before {
-    top: -30px;
-    left: -30px;
+  top: -30px;
+  left: -30px;
 }

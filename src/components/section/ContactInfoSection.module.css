@@ -1,67 +1,66 @@
 .contact {
-    height: 60vh;
-    padding: 5rem 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-bottom: 1px solid #798C7A;
+  height: 60vh;
+  padding: 5rem 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 1px solid #798c7a;
 }
 
 .contact h1 {
-    font-family: 'Bodini';
-    font-size: 6rem;
-    text-align: center;
-    text-decoration: underline;
+  font-family: "Bodini";
+  font-size: 6rem;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .contact a:hover {
-    color: #798C7A;
+  color: #798c7a;
 }
 
 .intro {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 .intro li {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 1300px) {
-    .contact h1 {
-        font-size: 4rem;
-    }
+  .contact h1 {
+    font-size: 4rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .contact h1 {
-        font-size: 3rem;
-    }
+  .contact h1 {
+    font-size: 3rem;
+  }
 
-    .intro li {
-        font-size: 1rem;
-    }
+  .intro li {
+    font-size: 1rem;
+  }
 }
 
-
-@media screen and (max-width: 760px){
-    .contact h1 {
-        font-size: 2.5rem;
-    }
+@media screen and (max-width: 760px) {
+  .contact h1 {
+    font-size: 2.5rem;
+  }
 }
 
-@media screen and (max-width: 650px){
-    .contact h1 {
-        font-size: 2rem;
-    }
+@media screen and (max-width: 650px) {
+  .contact h1 {
+    font-size: 2rem;
+  }
 }
 
-@media screen and (max-width: 650px){
-    .contact h1 {
-        font-size: 1.3rem;
-    }
+@media screen and (max-width: 650px) {
+  .contact h1 {
+    font-size: 1.3rem;
+  }
 }

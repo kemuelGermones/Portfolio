@@ -5,10 +5,9 @@ import "aos/dist/aos.css";
 import classes from "./HeroSection.module.css";
 
 function HeroSection() {
-
-    useEffect(() => {
-        Aos.init({ duration: 1500})
-    }, []);
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
 
   return (
     <section className={classes.hero} id="home">

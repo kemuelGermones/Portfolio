@@ -1,11 +1,7 @@
-import classes from './Button.module.css';
+import classes from "./Button.module.css";
 
 function Button({ children }) {
-    return (
-        <button className={classes.button}>
-            { children }
-        </button>
-    );
+  return <button className={classes.button}>{children}</button>;
 }
 
 export default Button;
