@@ -25,7 +25,7 @@
   width: 25rem;
 }
 
-.navbar a:hover {
+.navitem:hover {
   color: #798c7a;
 }
 
@@ -77,7 +77,7 @@
     transition: all 0.3s ease-in-out;
   }
 
-  .navbar a:hover {
+  .navitem:hover {
     color: #a8bfaa;
   }
 

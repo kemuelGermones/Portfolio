@@ -27,7 +27,7 @@ const menu = [
     name: "Contact",
   },
   {
-    link: "#resume",
+    link: "/resume.pdf",
     name: "Resume",
   },
 ];
@@ -81,13 +81,17 @@ function NavBar() {
             if (menu.length - 1 === index) {
               return (
                 <li key={index}>
-                  <Button>{item.name}</Button>
+                  <Button title={item.name} link={item.link} />
                 </li>
               );
             }
             return (
               <li key={index}>
-                <a href={item.link} onClick={sidebarHandler}>
+                <a
+                  href={item.link}
+                  onClick={sidebarHandler}
+                  className={classes.navitem}
+                >
                   {item.name}
                 </a>
               </li>

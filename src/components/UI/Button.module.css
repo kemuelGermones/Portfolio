@@ -3,7 +3,7 @@
   display: inline-block;
   background-color: transparent;
   width: 6em;
-  height: 2.6em;
+  height: 2.5em;
   line-height: 2.5em;
   overflow: hidden;
   font-size: 17px;
@@ -12,20 +12,21 @@
   border: 2px solid var(--color);
   border-radius: 6px;
   position: relative;
+  text-align: center;
 }
 
 .button::before {
   position: absolute;
   content: "";
   background: var(--color);
-  width: 150px;
+  width: 160px;
   height: 200px;
   z-index: -1;
   border-radius: 50%;
 }
 
 .button:hover {
-  color: #a8bfaa;
+  color: white;
 }
 
 .button:before {

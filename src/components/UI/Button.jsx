@@ -1,7 +1,11 @@
 import classes from "./Button.module.css";
 
-function Button({ children }) {
-  return <button className={classes.button}>{children}</button>;
+function Button({ title, link }) {
+  return (
+    <a type="button" className={classes.button} href={link} target="_blank">
+      {title}
+    </a>
+  );
 }
 
 export default Button;
