@@ -43,7 +43,7 @@
     width: 1.5rem;
   }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .body h1 {
         font-size: 4rem;
     }
