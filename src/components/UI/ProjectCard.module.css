@@ -36,8 +36,8 @@
 }
 
 .card-title {
-  font-family: "Bodini";
   font-size: 3rem;
+  font-weight: 100;
 }
 
 .card-icons {

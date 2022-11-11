@@ -8,7 +8,7 @@ function ImageCard({ data }) {
     <div className={classes.card}>
       <img src={data.imageSrc} alt={data.title} />
       <div className={classes["card-body"]}>
-        <div className={classes["card-title"]}>{data.title}</div>
+        <h1 className={classes["card-title"]}>{data.title}</h1>
         <div>{data.description}</div>
         <div>{data.technologies}</div>
         <div className={classes["card-icons"]}>
