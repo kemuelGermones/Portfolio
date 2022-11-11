@@ -30,9 +30,10 @@ function AboutSection() {
         <p data-aos="fade-up">
           I'd thought that I could be a full stack developer for three months
           but I was slapped by reality. So I decided to take my time and learn
-          at my own pace. After a year of ups and downs of learning, I've
-          managed to build full stack web applications and I've realized that
-          even one year isn't enough, life-long learning does.
+          at my own pace. After a year of learning and perseverance, I was able
+          to create full-stack web applications. Several reflections allowed me
+          to recognize that my profession requires life-long development, which
+          will enhance my skills as web developer.
         </p>
         <p data-aos="fade-up">Here are a few technologies I’ve learned:</p>
         <ul data-aos="fade-up">
