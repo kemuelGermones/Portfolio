@@ -5,7 +5,7 @@ html {
 body {
   margin: 0 auto;
   padding: 0;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Verdana, Geneva, Tahoma, sans-serif;
   background-color: #a8bfaa;
   color: #0d0d0d;
   cursor: pointer;
