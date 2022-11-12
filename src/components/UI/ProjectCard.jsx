@@ -3,7 +3,7 @@ import { GoLinkExternal } from "react-icons/go";
 
 import classes from "./ProjectCard.module.css";
 
-function ImageCard({ data }) {
+function ProjectCard({ data }) {
   return (
     <div className={classes.card}>
       <img src={data.imageSrc} alt={data.title} />
@@ -24,4 +24,4 @@ function ImageCard({ data }) {
   );
 }
 
-export default ImageCard;
+export default ProjectCard;

@@ -14,7 +14,7 @@ function HeroSection() {
       <h1 data-aos="fade-down">
         I’m Kemuel,
         <br />
-        <span> a full stack developer based in Philippines</span>
+        <span> a full-stack developer based in Philippines</span>
       </h1>
       <p>
         Currently looking for a web developer job as a self taught developer. If

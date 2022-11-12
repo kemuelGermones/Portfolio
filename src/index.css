@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -5,7 +7,7 @@ html {
 body {
   margin: 0 auto;
   padding: 0;
-  font-family: "Century Gothic", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "DM Sans", "Century Gothic", Verdana, Geneva, Tahoma, sans-serif;
   background-color: #a8bfaa;
   color: #0d0d0d;
   cursor: pointer;
@@ -17,6 +19,7 @@ a {
 }
 
 h1 {
+  font-weight: 100;
   font-family: "Bodoni", serif, Georgia;
   margin: 0;
 }
